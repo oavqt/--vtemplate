@@ -37,6 +37,7 @@ const commonConfig = {
       }
     }),
     new HtmlWebpackPlugin({
+      // favicon: '',
       template: './public/index.html',
       title: 'le cvlevc'
     })

@@ -17,5 +17,5 @@
             }
         ],
         "@babel/preset-typescript"
-    ],
+    ]
 }
