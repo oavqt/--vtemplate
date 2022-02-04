@@ -1,9 +1,8 @@
 const jestConfig = {
   moduleNameMapper: {
-    '\\.(gif|jpg|jpeg|png)$':
-      '<rootDir>/src/__test__/__transformers__/images.transformers.tsx'
+    '\\.(gif|jpg|jpeg|png)$': '<rootDir>/src/setup/jest/image.transformer.tsx'
   },
-  setupFilesAfterEnv: ['./src/__test__/jest.setup.tsx'],
+  setupFilesAfterEnv: ['./src/setup/jest/jest.setup.tsx'],
   testEnvironment: 'jsdom'
 };
 
